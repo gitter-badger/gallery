@@ -1,0 +1,10 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+    <color name="grey">#99BBBBBB</color>
+    <color name="grey_h">#BBBBBB</color>
+    <color name="black">#EE000000</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="b">#EE000000</color>
+    
+</resources>

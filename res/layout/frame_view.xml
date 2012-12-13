@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="bottom" ><ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="false"
+        android:duplicateParentState="false"
+        android:maxHeight="10dp"
+        android:maxWidth="10dp"
+        android:minHeight="11px"
+        android:minWidth="100px"
+        android:scaleType="centerCrop"
+        android:src="@drawable/art_10" />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="#55888888"
+        android:gravity="center"
+        android:maxHeight="160dp"
+        android:minHeight="160dp"
+        android:text="hello" />
+    
+</FrameLayout>
