@@ -14,7 +14,9 @@ public class ArtistActivity extends Activity{
 		GridView artistList = (GridView) findViewById(R.id.artistList);
 		artistList.setAdapter(new ImageAdapter(this));
 		
-  button action
+  //button action
+  // haha
+  //jsjs
         
         ImageButton exbitionBtn = (ImageButton) findViewById(R.id.exbitionBtn);
         exbitionBtn.setOnClickListener(new View.OnClickListener() {
