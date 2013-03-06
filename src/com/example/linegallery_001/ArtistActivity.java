@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.GridView;
 import android.widget.ImageButton;
-
 public class ArtistActivity extends Activity{
 	@Override
     public void onCreate(Bundle savedInstanceState) {
@@ -26,9 +25,7 @@ public class ArtistActivity extends Activity{
 				ArtistActivity.this.startActivity(intent);
 							
 			}
-		});
-        
-        
+		});       
         ImageButton shopBtn = (ImageButton) findViewById(R.id.shopBtn);
         shopBtn.setOnClickListener(new View.OnClickListener() {
 			
